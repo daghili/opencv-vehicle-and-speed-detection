@@ -30,7 +30,7 @@ import os
 ##############################################################################
 #Define input and output video
 cap = cv2.VideoCapture('car_movie.mp4')
-out = cv2.VideoWriter('analyzed_car_movie.avi',cv2.VideoWriter_fourcc('M','J','P','G') ,30.0,(960,540))
+out = cv2.VideoWriter('analyzed_car_movie.avi',cv2.VideoWriter_fourcc('M','J','P','G') ,60.0,(960,540))
 
 #Define start lane A and B
 line_start_A_x = 285
