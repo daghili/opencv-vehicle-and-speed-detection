@@ -1,40 +1,43 @@
 # OpenCV vehicle and speed detection
 
-One Paragraph of project description goes here
+This software program detects vehicles on german Autobahn and calculates the current speed. It also counts the number of vehicles, which drove through a ROI (Region of interest) and takes pictures of them to save on disk.
+
+The project was developed for a study project at Technische Hochschule Köln (University of applied science Cologne) in the study programme Master computer engineering.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Prerequisited elements:
 
-```
-Give examples
-```
+* Python 3
+* OpenCV 3.4.5 library for python 3
+* [Origin video file](https://youtu.be/IIGQQhLvqdY)
+
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+This installing manual based on Ubuntu 16.04 operating system.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+First you need to install python3, pip3 and OpenCV:
 
 ```
-until finished
+sudo apt-get install python3
+sudo apt-get install pip3
+pip3 install opencv-contrib-python
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+After them, download source code from here and the origin video with a YouTube video downloader and put them both into a folder.
 
-## Deployment
+### Starting
 
-Add additional notes about how to deploy this on a live system
+Just start the program with following command:
+
+```
+python3 main.py
+```
 
 ## Built With
 
@@ -44,11 +47,11 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/daghili/opencv-vehicle-and-speed-detection/blob/master/Contribute.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [Contributing.md](https://github.com/daghili/opencv-vehicle-and-speed-detection/blob/master/Contribute.md) for details on our code of conduct, and the process for submitting pull requests to us.[
 
 ## Versioning
 
-For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+For the versions available, see the [tags on this repository](https://github.com/daghili/opencv-vehicle-and-speed-detection/tags). 
 
 ## Authors
 
