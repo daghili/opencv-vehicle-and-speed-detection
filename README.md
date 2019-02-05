@@ -1,1 +1,1 @@
-# opencv-vehicle-and-speed-detection
+# OpenCV vehicle and speed detection
